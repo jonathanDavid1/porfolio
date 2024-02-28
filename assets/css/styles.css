@@ -77,7 +77,8 @@
     max-width: 100%;
     height: auto;
   }
-  
+ 
+
   /*=============== THEME ===============*/
   .change-theme{
     position: absolute;
@@ -95,9 +96,10 @@
   /*========== Variables Dark theme ==========*/
   body.dark-theme {
       --title-color: hsl(var(--hue), 12%, 95%);
-      --text-color: hsl(var(--hue), 12%, 75%);
+      --text-color: hsl(var(--hue), 12%, 75%); 
       --body-color: hsl(var(--hue), 40%, 8%);
       --container-color: hsl(var(--hue), 24%, 12%);
+    
   }
   /*========== 
       Color changes in some parts of 
@@ -105,6 +107,7 @@
   ==========*/
   .dark-theme .button__gray{
     background-color: var(--container-color);
+
   }
   .dark-theme .button__hover{
     background-color: hsl(var(--hue), 24%, 16%);
